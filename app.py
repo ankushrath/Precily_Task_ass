@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as snspip
 import re
 import string
 import nltk
@@ -13,7 +13,7 @@ from nltk.tokenize.treebank import TreebankWordDetokenizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.pipeline import Pipeline
-import spacy
+# import spacy
 from collections import Counter
 
 sw=nltk.corpus.stopwords.words('english')
